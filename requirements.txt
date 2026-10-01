@@ -1,0 +1,22 @@
+# Core scientific stack
+numpy
+pandas
+scipy
+
+# NetCDF / gridded data I/O
+xarray
+netCDF4
+h5netcdf
+
+# Geospatial
+geopandas
+shapely
+rioxarray
+pyproj
+
+# Plotting
+matplotlib
+
+# Data acquisition (TROPOMI/S5P-PAL STAC download)
+requests
+tqdm
