@@ -6,9 +6,8 @@ hours, and the European Space Agency's TROPOMI instrument, which
 measures tropospheric trace gas columns daily. The pipeline grids the
 raw VIIRS fire detections into a daily map of Nepal, finds the cells
 with the most extreme fire activity, and groups neighboring hotspot
-cells into clusters using connected-component labeling — the same kind
-of algorithm used in image processing to find contiguous blobs. For
-each cluster, it pulls the matching NO2/CO data and asks two questions:
+cells into clusters using connected-component labeling . For
+each cluster, it pulls the matching NO2/CO data and deals with questions such as
 how much does the gas level rise above its quiet-season baseline, and
 does fire activity actually correlate with the spikes (including a day
 or two of lag, since smoke takes time to accumulate and drift to the
