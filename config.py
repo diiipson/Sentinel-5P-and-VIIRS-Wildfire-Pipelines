@@ -1,13 +1,8 @@
-"""
-All the settings shared across the pipeline, in one place.
 
-Before, every script had its own copy of the Nepal bounding box, the
-grid resolution, the cluster boxes, all of it, hardcoded at the top and
-edited by hand each time. Now it's just here once, and everything else
-imports from this file.
 
-Open this file and fix the paths before running anything else.
-"""
+
+#Open this file and fix the paths before running anything else.
+
 
 # ----------------------------------------------------------------------
 # The study area - Nepal plus a bit of a buffer around it
